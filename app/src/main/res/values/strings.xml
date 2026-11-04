@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculino</string>
+    <string name="app_tagline">Matemáticas tiernas, resultados precisos</string>
+
+    <string name="nav_calculator">Calculadora</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_assistant">Asistente</string>
+    <string name="onboarding_title">Bienvenido a Calculino</string>
+    <string name="onboarding_subtitle">Matemáticas tiernas, resultados precisos</string>
+    <string name="onboarding_footer">Desarrollado por: VBLab</string>
+    <string name="onboarding_start">Comenzar</string>
+    <string name="nav_tools">Ciencia</string>
+    <string name="nav_practice">Práctica</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <string name="calculator_display_label">Operación</string>
+    <string name="calculator_open_history">Abrir historial</string>
+    <string name="calculator_zero">0</string>
+    <string name="calculator_empty_hint">Empieza con un número o una constante</string>
+    <string name="calculator_ready_hint">Toca igual para resolver</string>
+    <string name="calculator_result_equals" formatted="false">=</string>
+    <string name="calculator_result_approx" formatted="false">≈</string>
+    <string name="calculator_result_exact">Exacto</string>
+    <string name="calculator_result_approximate">Aproximado</string>
+    <string name="calculator_approx_detail">≈ %1$s</string>
+    <string name="calculator_angle_radians">RAD</string>
+    <string name="calculator_angle_degrees">DEG</string>
+    <string name="calculator_angle_switch_to_degrees">Modo angular: radianes. Toca para cambiar a grados.</string>
+    <string name="calculator_angle_switch_to_radians">Modo angular: grados. Toca para cambiar a radianes.</string>
+    <string name="calculator_functions_label" formatted="false">fx</string>
+    <string name="calculator_functions_open">Abrir funciones</string>
+    <string name="calculator_view_steps">Ver pasos</string>
+    <string name="calculator_view_steps_description">Ver el procedimiento de la división</string>
+    <string name="calculator_explain">Explicar</string>
+    <string name="calculator_explain_description">Explicar este resultado con IA local</string>
+
+    <string name="procedure_title">División larga</string>
+    <string name="procedure_subtitle">%1$s ÷ %2$s</string>
+    <string name="procedure_close">Listo</string>
+    <string name="procedure_quotient">Cociente</string>
+    <string name="procedure_remainder">Residuo</string>
+    <string name="procedure_visual_caption">Así queda la división</string>
+    <string name="procedure_visual_description">División larga de %1$s entre %2$s. Cociente %3$s, residuo %4$s.</string>
+    <string name="procedure_verification">Comprobación: %1$s × %2$s + %3$s = %4$s</string>
+    <string name="procedure_steps_title">Paso a paso</string>
+    <string name="procedure_steps_hint">Toca un paso para expandirlo o contraerlo.</string>
+    <string name="procedure_step_number">Paso %1$d</string>
+    <string name="procedure_step_division">%1$s ÷ %2$s = %3$s</string>
+    <string name="procedure_step_multiply">Multiplica: %1$s × %2$s = %3$s</string>
+    <string name="procedure_step_subtract">Resta: %1$s − %2$s = %3$s</string>
+    <string name="procedure_step_no_fit">%1$s es menor que %2$s, así que el cociente lleva 0.</string>
+    <string name="procedure_step_bring_down">Baja el %1$s y forma %2$s.</string>
+    <string name="procedure_step_remainder">El resto es %1$s.</string>
+    <string name="procedure_step_exact">El resto es 0: la división es exacta.</string>
+    <string name="procedure_expand_step">Expandir paso</string>
+    <string name="procedure_collapse_step">Contraer paso</string>
+    <string name="procedure_exact">División exacta</string>
+    <string name="procedure_inexact">División con resto</string>
+
+    <string name="calc_key_clear" formatted="false">C</string>
+    <string name="calc_key_percent" formatted="false">%</string>
+    <string name="calc_key_divide" formatted="false">÷</string>
+    <string name="calc_key_multiply" formatted="false">×</string>
+    <string name="calc_key_minus" formatted="false">−</string>
+    <string name="calc_key_plus" formatted="false">+</string>
+    <string name="calc_key_decimal" formatted="false">.</string>
+    <string name="calc_key_equals" formatted="false">=</string>
+    <string name="calc_key_pi" formatted="false">π</string>
+    <string name="calc_key_sqrt" formatted="false">√</string>
+    <string name="calc_key_power" formatted="false">^</string>
+    <string name="calc_key_sign" formatted="false">±</string>
+    <string name="calc_key_currency" formatted="false">$</string>
+
+    <string name="calc_desc_digit">Número %1$s</string>
+    <string name="calc_desc_clear">Limpiar</string>
+    <string name="calc_desc_delete">Borrar</string>
+    <string name="calc_desc_percent">Porcentaje</string>
+    <string name="calc_desc_divide">Dividir</string>
+    <string name="calc_desc_multiply">Multiplicar</string>
+    <string name="calc_desc_minus">Restar</string>
+    <string name="calc_desc_plus">Sumar</string>
+    <string name="calc_desc_decimal">Punto decimal</string>
+    <string name="calc_desc_equals">Igual</string>
+    <string name="calc_desc_pi">Pi</string>
+    <string name="calc_desc_sqrt">Raíz cuadrada</string>
+    <string name="calc_desc_power">Potencia</string>
+    <string name="calc_desc_sign">Cambiar signo</string>
+    <string name="calc_desc_currency">Moneda</string>
+    <string name="calc_desc_sin">Seno</string>
+    <string name="calc_desc_cos">Coseno</string>
+    <string name="calc_desc_tan">Tangente</string>
+    <string name="calc_desc_asin">Arcoseno</string>
+    <string name="calc_desc_acos">Arcocoseno</string>
+    <string name="calc_desc_atan">Arcotangente</string>
+    <string name="calc_desc_e">Número e</string>
+    <string name="calc_desc_ln">Logaritmo natural</string>
+    <string name="calc_desc_log">Logaritmo decimal</string>
+    <string name="calc_desc_exp">Exponencial</string>
+    <string name="calc_desc_cbrt">Raíz cúbica</string>
+    <string name="calc_desc_square">Elevar al cuadrado</string>
+    <string name="calc_desc_factorial">Factorial</string>
+    <string name="calc_desc_open_parenthesis">Abrir paréntesis</string>
+    <string name="calc_desc_close_parenthesis">Cerrar paréntesis</string>
+
+    <string name="functions_title">Funciones</string>
+    <string name="functions_subtitle">Añade operaciones a tu expresión</string>
+    <string name="functions_done">Listo</string>
+    <string name="functions_trigonometry">Trigonometría</string>
+    <string name="functions_more">Más funciones</string>
+
+    <string name="calc_error_empty">Escribe una operación.</string>
+    <string name="calc_error_unexpected_token">Símbolo inesperado: %1$s</string>
+    <string name="calc_error_unexpected_character">Carácter no válido: %1$s</string>
+    <string name="calc_error_malformed_number">Número no válido: %1$s</string>
+    <string name="calc_error_unknown_identifier">No reconozco «%1$s»</string>
+    <string name="calc_error_division_by_zero">No se puede dividir entre cero.</string>
+    <string name="calc_error_domain">La operación no tiene resultado real.</string>
+    <string name="calc_error_overflow">El resultado está fuera del rango disponible.</string>
+    <string name="calc_error_too_large">El resultado es demasiado grande.</string>
+    <string name="calc_error_factorial">El factorial necesita un entero no negativo.</string>
+
+    <string name="science_title">Ciencia</string>
+    <string name="science_subtitle">Explora, calcula y aprende</string>
+    <string name="tool_periodic_title">Tabla periódica</string>
+    <string name="tool_periodic_description">Los 118 elementos con masa atómica, categoría y configuración electrónica.</string>
+    <string name="tool_molar_title">Masa molar</string>
+    <string name="tool_molar_description">Calcula la masa de una fórmula y su composición porcentual.</string>
+    <string name="tool_physics_title">Física</string>
+    <string name="tool_physics_description">Cinemática, fuerza, energía y ley de Ohm.</string>
+    <string name="tool_geometry_title">Geometría</string>
+    <string name="tool_geometry_description">Área y perímetro con diagramas que responden a tus medidas.</string>
+    <string name="tool_algebra_title">Álgebra</string>
+    <string name="tool_algebra_description">Ecuaciones lineales, cuadráticas y sistemas paso a paso.</string>
+
+    <string name="algebra_title">Álgebra</string>
+    <string name="algebra_subtitle">Resuelve y entiende cada paso</string>
+    <string name="algebra_input_label">Ecuación o sistema</string>
+    <string name="algebra_input_hint">Ej. 2x + 5 = 15</string>
+    <string name="algebra_system_hint">Para sistemas, escribe una ecuación por línea.</string>
+    <string name="algebra_solve">Resolver</string>
+    <string name="algebra_examples">Ejemplos</string>
+    <string name="algebra_example_linear">2x + 5 = 15</string>
+    <string name="algebra_example_quadratic">x^2 − 5x + 6 = 0</string>
+    <string name="algebra_example_system">2x + y = 7\nx − y = 2</string>
+    <string name="algebra_example_system_label">Sistema 2×2</string>
+    <string name="algebra_solution">Solución</string>
+    <string name="algebra_steps">Paso a paso</string>
+    <string name="algebra_error_invalid">Revisa la ecuación. Usa una sola variable o una ecuación por línea para sistemas.</string>
+    <string name="algebra_error_unsupported">Este tipo de ecuación todavía no es compatible. Prueba con grado 1, grado 2 o un sistema de dos ecuaciones.</string>
+    <string name="algebra_error_no_real">La ecuación no tiene soluciones reales.</string>
+    <string name="algebra_error_no_unique">El sistema no tiene una solución única.</string>
+    <string name="algebra_error_infinite">Hay infinitas soluciones.</string>
+    <string name="algebra_input_description">Campo de ecuación</string>
+    <string name="algebra_keyboard_tab_basic">+ − × ÷</string>
+    <string name="algebra_keyboard_tab_functions">f(x) log ln</string>
+    <string name="algebra_keyboard_tab_trigonometry">sin cos tan</string>
+    <string name="algebra_keyboard_tab_calculus">lim dx ∫ ∞</string>
+
+    <string name="science_section_science">Ciencia</string>
+    <string name="science_section_engineering">Ingeniería</string>
+    <string name="tool_base_title">Bases y bitwise</string>
+    <string name="tool_base_description">Convierte entre bases y aplica AND, OR, XOR, NOT y desplazamientos.</string>
+    <string name="tool_subnet_title">Calculadora de subredes</string>
+    <string name="tool_subnet_description">Calcula red, broadcast, rango de hosts y máscara desde IPv4/CIDR.</string>
+    <string name="tool_matrix_title">Matrices</string>
+    <string name="tool_matrix_description">Determinante, transpuesta, inversa y multiplicación de matrices.</string>
+    <string name="tool_currency_title">Conversor de divisas</string>
+    <string name="tool_currency_description">Convierte entre USD, EUR, MXN y más.</string>
+
+    <string name="base_input_title">Convierte desde cualquier base</string>
+    <string name="base_input_label">Número en base %1$d</string>
+    <string name="base_invalid">El número no es válido para esa base.</string>
+    <string name="base_results_title">Equivalencias</string>
+    <string name="base_decimal">Decimal</string>
+    <string name="base_binary">Binario</string>
+    <string name="base_octal">Octal</string>
+    <string name="base_hexadecimal">Hexadecimal</string>
+    <string name="base_live_note">Las equivalencias se actualizan mientras escribes.</string>
+
+    <string name="subnet_input_title">Dirección y máscara</string>
+    <string name="subnet_ip_label">Dirección IPv4</string>
+    <string name="subnet_ip_hint">192.168.1.10</string>
+    <string name="subnet_mask_label">Máscara</string>
+    <string name="subnet_invalid_ip">Escribe una IPv4 válida, por ejemplo 192.168.1.10.</string>
+    <string name="subnet_invalid_mask">Usa 0–32, /24 o una máscara como 255.255.255.0.</string>
+    <string name="subnet_results_title">Resultado de la subred</string>
+    <string name="subnet_prefix">Prefijo</string>
+    <string name="subnet_network">Red</string>
+    <string name="subnet_broadcast">Broadcast</string>
+    <string name="subnet_first_host">Primer host</string>
+    <string name="subnet_last_host">Último host</string>
+    <string name="subnet_usable_hosts">Hosts útiles</string>
+    <string name="subnet_mask_result">Máscara de subred</string>
+    <string name="subnet_wildcard">Wildcard</string>
+
+    <string name="matrix_dimensions">Dimensiones</string>
+    <string name="matrix_rows">Filas</string>
+    <string name="matrix_cols">Columnas</string>
+    <string name="matrix_values">Valores</string>
+    <string name="matrix_cell_description">Fila %1$d, columna %2$d</string>
+    <string name="matrix_invalid_cells">Escribe un número en cada celda.</string>
+    <string name="matrix_calculate">Calcular</string>
+    <string name="matrix_determinant">Determinante</string>
+    <string name="matrix_determinant_square_only">El determinante solo se calcula en matrices cuadradas.</string>
+    <string name="matrix_transpose">Matriz transpuesta</string>
+
+    <string name="currency_input_title">Conversión</string>
+    <string name="currency_amount">Cantidad</string>
+    <string name="currency_from">Desde</string>
+    <string name="currency_to">Hasta</string>
+    <string name="currency_invalid_amount">Escribe una cantidad válida.</string>
+    <string name="currency_loading">Obteniendo el tipo de cambio…</string>
+    <string name="currency_error_title">Sin conexión con el servicio</string>
+    <string name="currency_error_message">No pudimos obtener el tipo de cambio. Puedes introducirlo manualmente.</string>
+    <string name="currency_manual_rate">Tasa manual</string>
+    <string name="currency_invalid_manual">Escribe una tasa válida.</string>
+    <string name="currency_manual_rate_hint">Ej. 0.92</string>
+    <string name="currency_manual_rate_description">Un %1$s equivale a la tasa indicada en %2$s.</string>
+    <string name="currency_result">Resultado</string>
+    <string name="currency_result_format">%1$s %2$s = %3$s %4$s</string>
+    <string name="currency_rate_format">1 %1$s = %2$s %3$s</string>
+    <string name="currency_source">Tipo de cambio de exchangerate-api.com.</string>
+    <string name="currency_manual_source">Cálculo con tasa manual.</string>
+
+    <string name="periodic_title">Tabla periódica</string>
+    <string name="periodic_subtitle">118 elementos · datos verificados</string>
+    <string name="periodic_search_hint">Busca por nombre, símbolo o número</string>
+    <string name="periodic_clear_search">Borrar búsqueda</string>
+    <string name="periodic_element_description">%1$s, símbolo %2$s, número atómico %3$d</string>
+    <string name="periodic_table_hint">Desliza horizontalmente para recorrer los 18 grupos. Los lantánidos y actínidos aparecen separados en las filas inferiores.</string>
+    <string name="periodic_source_note">Datos: IUPAC/CIAAW, Wikidata y Periodic-Table-JSON. Para elementos sin isótopos estables se usa el número másico del isótopo más estable.</string>
+    <string name="periodic_search_result_meta">N.º %1$d · %2$s u</string>
+    <string name="periodic_no_results_title">Sin resultados</string>
+    <string name="periodic_no_results_text">Prueba con otro nombre, símbolo o número atómico.</string>
+    <string name="periodic_atomic_mass">Masa atómica</string>
+    <string name="periodic_atomic_mass_unit">u</string>
+    <string name="periodic_atomic_number">Número atómico</string>
+    <string name="periodic_period">Periodo</string>
+    <string name="periodic_group">Grupo</string>
+    <string name="periodic_phase">Fase</string>
+    <string name="periodic_electron_configuration">Configuración electrónica</string>
+    <string name="periodic_mass_number_note">Para este elemento se muestra el número másico del isótopo más estable.</string>
+    <string name="periodic_fun_fact">Descripción</string>
+
+    <string name="category_alkali_metal">Metal alcalino</string>
+    <string name="category_alkaline_earth">Alcalinotérreo</string>
+    <string name="category_transition_metal">Metal de transición</string>
+    <string name="category_post_transition">Metal post-transición</string>
+    <string name="category_metalloid">Metaloide</string>
+    <string name="category_nonmetal">No metal</string>
+    <string name="category_noble_gas">Gas noble</string>
+    <string name="category_lanthanide">Lantánido</string>
+    <string name="category_actinide">Actínido</string>
+    <string name="category_unknown">Categoría no confirmada</string>
+    <string name="phase_solid">Sólido</string>
+    <string name="phase_liquid">Líquido</string>
+    <string name="phase_gas">Gas</string>
+
+    <string name="molar_title">Masa molar</string>
+    <string name="molar_subtitle">Calcula gramos por mol y composición</string>
+    <string name="molar_formula_label">Fórmula química</string>
+    <string name="molar_formula_placeholder">H2O, Ca(OH)2, CuSO4·5H2O</string>
+    <string name="molar_clear_formula">Borrar fórmula</string>
+    <string name="molar_examples">Ejemplos</string>
+    <string name="molar_empty_title">Escribe una fórmula</string>
+    <string name="molar_empty_text">Usa símbolos químicos con mayúscula y minúscula, paréntesis y puntos de hidrato.</string>
+    <string name="molar_total_label">Masa molar</string>
+    <string name="molar_mass_unit">g/mol</string>
+    <string name="molar_composition">Composición</string>
+    <plurals name="molar_atom_count">
+        <item quantity="one">%1$d átomo en total</item>
+        <item quantity="other">%1$d átomos en total</item>
+    </plurals>
+    <string name="molar_atoms_factor">×%1$d</string>
+    <string name="molar_contribution_mass">%1$s g/mol</string>
+    <string name="molar_percentage">%1$s %%</string>
+    <string name="molar_source_note">Pesos atómicos: IUPAC/CIAAW vía Periodic-Table-JSON. Para elementos sin isótopos estables se usa el número másico del isótopo más estable.</string>
+    <string name="molar_error_empty">Escribe una fórmula química.</string>
+    <string name="molar_error_unknown">No reconozco el elemento «%1$s».</string>
+    <string name="molar_error_character">Carácter inesperado: «%1$s».</string>
+    <string name="molar_error_parentheses">Revisa los paréntesis de la fórmula.</string>
+    <string name="molar_error_empty_group">Hay un paréntesis vacío.</string>
+    <string name="molar_error_count">Los subíndices deben ser números mayores que cero.</string>
+    <string name="molar_error_too_large">La fórmula es demasiado grande.</string>
+
+    <string name="physics_title">Física</string>
+    <string name="physics_subtitle">Fórmulas rápidas para tus cálculos</string>
+    <string name="physics_kinematics_title">Cinemática</string>
+    <string name="physics_kinematics_description">v = v₀ + a·t  ·  d = v₀·t + ½·a·t²</string>
+    <string name="physics_initial_velocity">Velocidad inicial (m/s)</string>
+    <string name="physics_acceleration">Aceleración (m/s²)</string>
+    <string name="physics_time">Tiempo (s)</string>
+    <string name="physics_final_velocity">Velocidad final</string>
+    <string name="physics_distance">Distancia</string>
+    <string name="physics_force_title">Fuerza</string>
+    <string name="physics_force_description">Segunda ley de Newton: F = m · a.</string>
+    <string name="physics_mass">Masa (kg)</string>
+    <string name="physics_force_result">Fuerza</string>
+    <string name="physics_energy_title">Energía</string>
+    <string name="physics_energy_description">Ec = ½·m·v²  ·  Ep = m·g·h</string>
+    <string name="physics_velocity">Velocidad (m/s)</string>
+    <string name="physics_height">Altura (m)</string>
+    <string name="physics_kinetic_energy">Energía cinética</string>
+    <string name="physics_potential_energy">Energía potencial</string>
+    <string name="physics_ohm_title">Ley de Ohm</string>
+    <string name="physics_ohm_description">I = V/R  ·  P = V·I</string>
+    <string name="physics_voltage">Voltaje (V)</string>
+    <string name="physics_resistance">Resistencia (Ω)</string>
+    <string name="physics_current">Corriente</string>
+    <string name="physics_power">Potencia</string>
+    <string name="physics_resistance_error">La resistencia debe ser un número mayor que 0.</string>
+    <string name="physics_invalid_number">Escribe un número válido.</string>
+    <string name="physics_empty_result">Completa los datos para ver el resultado.</string>
+    <string name="physics_note">Se usa g = 9.81 m/s² para la energía potencial.</string>
+
+    <string name="unit_meter_per_second">m/s</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_newton">N</string>
+    <string name="unit_joule">J</string>
+    <string name="unit_ampere">A</string>
+    <string name="unit_watt">W</string>
+    <string name="unit_centimeter">cm</string>
+    <string name="unit_square_centimeter">cm²</string>
+
+    <string name="geometry_title">Geometría</string>
+    <string name="geometry_subtitle">Ajusta las medidas y observa el resultado</string>
+    <string name="geometry_circle">Círculo</string>
+    <string name="geometry_rectangle">Rectángulo</string>
+    <string name="geometry_right_triangle">Triángulo rectángulo</string>
+    <string name="geometry_radius">Radio</string>
+    <string name="geometry_width">Ancho</string>
+    <string name="geometry_height">Altura</string>
+    <string name="geometry_base">Base</string>
+    <string name="geometry_value_cm">%1$s cm</string>
+    <string name="geometry_area">Área</string>
+    <string name="geometry_perimeter">Perímetro</string>
+    <string name="geometry_note">Arrastra los controles para cambiar las medidas. Los valores están en centímetros.</string>
+
+    <string name="ai_title">Asistente local</string>
+    <string name="ai_subtitle">Conversa o explica tus cálculos en privado</string>
+    <string name="ai_mode_chat">Chat</string>
+    <string name="ai_mode_explain">Explicar</string>
+    <string name="ai_chat_empty_title">Pregúntame lo que quieras</string>
+    <string name="ai_chat_empty_text">Puedo conversar contigo o ayudarte con matemáticas. Si la operación es compleja, usa la calculadora para verificar el resultado.</string>
+    <string name="ai_chat_input_hint">Escribe un mensaje…</string>
+    <string name="ai_chat_send">Enviar mensaje</string>
+    <string name="ai_models_title">Modelos locales</string>
+    <string name="ai_models_subtitle">Descarga solo el modelo que necesites. Todo se queda en tu dispositivo.</string>
+    <string name="ai_models_note">Modelos oficiales Qwen desde Hugging Face. El archivo se verifica con SHA-256 antes de usarse.</string>
+    <string name="ai_download_title">Modelo de IA local</string>
+    <string name="ai_download_description">Descargando un modelo para Calculino</string>
+    <string name="ai_model_qwen25_name">Qwen 1.5B</string>
+    <string name="ai_model_qwen25_description">Modelo local para chat y explicaciones matemáticas.</string>
+    <string name="ai_model_meta">%1$s · %2$s</string>
+    <string name="ai_recommended_chat">Recomendado para chat</string>
+    <string name="ai_recommended_math">Recomendado para mates</string>
+    <string name="ai_download">Descargar</string>
+    <string name="ai_retry_download">Reintentar</string>
+    <string name="ai_cancel_download">Cancelar</string>
+    <string name="ai_delete_model">Eliminar modelo</string>
+    <string name="ai_use_model">Usar</string>
+    <string name="ai_selected_model">En uso</string>
+    <string name="ai_ready">Descargado</string>
+    <string name="ai_downloading">%1$s de %2$s</string>
+    <string name="ai_download_wifi">Se recomienda Wi-Fi: el archivo es grande.</string>
+    <string name="ai_download_failed">La descarga falló. Inténtalo de nuevo.</string>
+    <string name="ai_model_corrupt">El archivo está dañado. Elimínalo y descárgalo de nuevo.</string>
+    <string name="ai_download_start_space">No hay espacio suficiente para descargar el modelo.</string>
+    <string name="ai_download_start_unavailable">No se pudo iniciar la descarga.</string>
+    <string name="ai_device_unsupported_title">IA local no disponible</string>
+    <string name="ai_device_unsupported_text">Este dispositivo no es ARM64. La inferencia local requiere un teléfono ARM64 compatible.</string>
+    <string name="ai_verified_label">Resultado verificado</string>
+    <string name="ai_verified_note">Calculado por el motor de Calculino; la IA no modifica este valor.</string>
+    <string name="ai_explain_title">Explicación matemática</string>
+    <string name="ai_explain_input_label">Operación</string>
+    <string name="ai_explain_input_hint">Ej. 800×9652÷98</string>
+    <string name="ai_explain_input_error">Escribe una operación válida.</string>
+    <string name="ai_explain_button">Explicar con IA</string>
+    <string name="ai_history_title">Desde tu historial</string>
+    <string name="ai_steps_title">Pasos verificados</string>
+    <string name="ai_model_button">Modelo: %1$s</string>
+    <string name="ai_model_button_none">Elegir modelo</string>
+    <string name="ai_no_model_hint">Descarga un modelo para chatear y generar explicaciones.</string>
+    <string name="ai_verifying">Verificando el modelo…</string>
+    <string name="ai_loading">Cargando el modelo…</string>
+    <string name="ai_generating">Generando la respuesta…</string>
+    <string name="ai_result_meta">%1$s tok/s</string>
+    <string name="ai_disclaimer">La IA puede conversar o explicar. Los resultados y pasos matemáticos verificados son los de Calculino; revisa siempre el cálculo.</string>
+    <string name="ai_error_unsupported">La IA local no está disponible en este dispositivo.</string>
+    <string name="ai_error_missing">El modelo no está disponible. Descárgalo de nuevo.</string>
+    <string name="ai_error_corrupt">El archivo del modelo está dañado o incompleto.</string>
+    <string name="ai_error_load">No se pudo cargar el modelo. Prueba con el modelo más pequeño.</string>
+    <string name="ai_error_memory">No hay memoria suficiente para cargar el modelo.</string>
+    <string name="ai_error_inference">No se pudo generar la respuesta. Inténtalo de nuevo.</string>
+    <string name="ai_error_empty">El modelo no devolvió una respuesta. Inténtalo otra vez.</string>
+    <string name="ai_angle_mode">Modo angular: %1$s</string>
+
+    <string name="practice_title">Práctica</string>
+    <string name="practice_description">Genera ejercicios, pide pistas y comprueba tus respuestas.</string>
+    <string name="practice_section_category">Tema</string>
+    <string name="practice_section_difficulty">Nivel</string>
+    <string name="practice_category_arithmetic">Aritmética</string>
+    <string name="practice_category_fractions">Fracciones</string>
+    <string name="practice_category_powers">Potencias</string>
+    <string name="practice_category_equations">Ecuaciones</string>
+    <string name="practice_difficulty_easy">Fácil</string>
+    <string name="practice_difficulty_medium">Medio</string>
+    <string name="practice_difficulty_hard">Difícil</string>
+    <string name="practice_stats_solved">Aciertos</string>
+    <string name="practice_stats_attempts">Intentos</string>
+    <string name="practice_stats_streak">Racha</string>
+    <string name="practice_stats_best">Mejor racha</string>
+    <string name="practice_answer_label">Tu respuesta</string>
+    <string name="practice_answer_placeholder">Ej. 42, 0,75 o 3/4</string>
+    <string name="practice_answer_format">Usa un número, un decimal con coma o punto, o una fracción con /.</string>
+    <string name="practice_answer_invalid">No pude leer esa respuesta. Prueba con 42, 0,75 o 3/4.</string>
+    <string name="practice_fraction_key">Insertar barra de fracción</string>
+    <string name="practice_slash" formatted="false">/</string>
+    <string name="practice_check">Comprobar</string>
+    <string name="practice_next">Siguiente ejercicio</string>
+    <string name="practice_retry">Reintentar</string>
+    <string name="practice_show_steps">Ver paso a paso</string>
+    <string name="practice_hide_steps">Ocultar pasos</string>
+    <string name="practice_steps_title">Paso a paso</string>
+    <string name="practice_hint_show">Ver pista</string>
+    <string name="practice_hint_more">Otra pista</string>
+    <string name="practice_hint_label">Pista %1$d</string>
+    <string name="practice_correct_title">¡Muy bien!</string>
+    <string name="practice_correct_body">La respuesta correcta es %1$s.</string>
+    <string name="practice_incorrect_title">Casi lo tienes</string>
+    <string name="practice_incorrect_body">Revisa tu procedimiento e inténtalo otra vez, o mira los pasos.</string>
+    <string name="practice_equation_instruction">Despeja x.</string>
+    <string name="practice_session_note">Estadísticas de esta sesión · Pistas usadas: %1$d.</string>
+
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_subtitle">Personaliza tu Calculino</string>
+    <string name="settings_section_appearance">Apariencia</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_haptics">Hápticos</string>
+    <string name="settings_haptics_description">Vibración suave al tocar las teclas.</string>
+    <string name="settings_section_data">Datos</string>
+    <string name="settings_history_title">Historial</string>
+    <string name="settings_history_description">Tus cálculos se guardan solo en este dispositivo.</string>
+    <string name="settings_clear_history">Borrar historial</string>
+    <string name="settings_clear_dialog_title">Borrar historial</string>
+    <string name="settings_clear_dialog_text">Se eliminarán todos los cálculos guardados. Esta acción no se puede deshacer.</string>
+    <string name="settings_clear_confirm">Borrar historial</string>
+    <string name="settings_section_ai">Inteligencia artificial</string>
+    <string name="settings_ai_title">Asistente y modelos</string>
+    <string name="settings_ai_description">Descarga Qwen bajo demanda, conversa o explica resultados verificados.</string>
+    <string name="settings_ai_open">Abrir modelos</string>
+    <string name="settings_section_about">Acerca de</string>
+    <string name="settings_about_title">Calculino</string>
+    <string name="settings_about_text">Matemáticas claras, paso a paso y en tu dispositivo.</string>
+    <string name="settings_about_open">Privacidad y licencias</string>
+
+    <string name="about_title">Acerca de</string>
+    <string name="about_subtitle">Información, privacidad y licencias</string>
+    <string name="about_version">Versión %1$s</string>
+    <string name="about_description">Calculino resuelve matemáticas con precisión, te enseña el procedimiento y mantiene tus datos en tu dispositivo.</string>
+    <string name="about_privacy_title">Privacidad</string>
+    <string name="about_privacy_body">Sin cuentas, anuncios ni rastreo. Tus cálculos y ajustes se guardan solo en este dispositivo.</string>
+    <string name="about_ai_title">IA local opcional</string>
+    <string name="about_ai_body">Los modelos Qwen se descargan desde Hugging Face solo cuando tú lo pides. Las explicaciones se generan en el dispositivo y nunca sustituyen al motor matemático verificado.</string>
+    <string name="about_licenses_title">Licencias</string>
+    <string name="about_licenses_body">Kotlin, Jetpack Compose, Room y DataStore: Apache 2.0. llama.cpp: MIT. Modelos Qwen: Apache 2.0. Nunito: SIL OFL 1.1. Los textos completos están en sus repositorios oficiales.</string>
+    <string name="about_sources_title">Fuentes de datos</string>
+    <string name="about_sources_body">Tabla periódica: Wikidata y Bowserinator/Periodic-Table-JSON. Tipos de cambio: exchangerate-api.com. Modelos: Qwen en Hugging Face.</string>
+    <string name="about_footer">Hecho con cariño para aprender matemáticas.</string>
+
+    <string name="history_title">Historial</string>
+    <string name="history_subtitle">Tus últimos cálculos</string>
+    <string name="history_loading">Cargando historial…</string>
+    <string name="history_empty_title">Aún no hay cálculos</string>
+    <string name="history_empty_text">Los resultados aparecerán aquí cuando uses el botón igual.</string>
+    <string name="history_clear_description">Borrar todo el historial</string>
+    <string name="history_clear_confirm">Borrar todo</string>
+    <string name="history_clear_dialog_title">Borrar historial</string>
+    <string name="history_clear_dialog_text">Se eliminarán todos los cálculos guardados. Esta acción no se puede deshacer.</string>
+    <string name="history_delete_entry">Eliminar cálculo</string>
+    <string name="history_error_title">No se pudo cargar el historial</string>
+    <string name="history_error_text">Inténtalo de nuevo en un momento.</string>
+
+    <string name="action_back">Volver</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_retry">Reintentar</string>
+
+    <string name="science_section_chemistry">Química</string>
+    <string name="science_section_mathematics">Matemáticas</string>
+    <string name="science_section_physics">Física</string>
+    <string name="science_section_programming">Programación</string>
+
+    <string name="tool_json_xml_title">JSON y XML</string>
+    <string name="tool_json_xml_description">Valida, formatea y muestra errores explícitos de estructura.</string>
+    <string name="tool_complexity_title">Complejidad Big-O</string>
+    <string name="tool_complexity_description">Consulta el mejor, promedio, peor caso y espacio de algoritmos clave.</string>
+    <string name="tool_statistics_title">Estadística y probabilidad</string>
+    <string name="tool_statistics_description">Media, mediana, moda, varianza, desviación, nCr y nPr.</string>
+    <string name="tool_complex_title">Números complejos</string>
+    <string name="tool_complex_description">Suma, multiplica, calcula magnitud y fase de a+bi.</string>
+    <string name="tool_gibbs_title">Energía de Gibbs</string>
+    <string name="tool_gibbs_description">Calcula ΔG con ΔH, ΔS y T, y determina la espontaneidad.</string>
+    <string name="tool_empirical_title">Fórmula empírica</string>
+    <string name="tool_empirical_description">Obtén la fórmula empírica y molecular desde composición o masas.</string>
+    <string name="tool_ph_title">pH y pOH</string>
+    <string name="tool_ph_description">Ácidos y bases fuertes o débiles con Ka y Kb.</string>
+
+    <string name="history_sheet_subtitle">Expresiones y desglose paso a paso</string>
+    <string name="history_show_steps">Ver pasos</string>
+    <string name="history_hide_steps">Ocultar pasos</string>
+
+    <string name="base_tab_conversion">Bases</string>
+    <string name="base_tab_bitwise">Bitwise</string>
+    <string name="bitwise_title">Operaciones bit a bit</string>
+    <string name="bitwise_left">Operando A</string>
+    <string name="bitwise_right">Operando B</string>
+    <string name="bitwise_invalid">Usa enteros no negativos de hasta 64 bits y un desplazamiento válido.</string>
+    <string name="bitwise_result">Resultado bitwise</string>
+    <string name="bitwise_note">NOT trabaja con 64 bits. Los desplazamientos aceptan de 0 a 63.</string>
+
+    <string name="subnet_cidr_label">IPv4 / CIDR</string>
+    <string name="subnet_cidr_hint">192.168.1.10/24</string>
+    <string name="subnet_host_range">Rango de hosts</string>
+
+    <string name="matrix_operation">Operación</string>
+    <string name="matrix_first">Matriz A</string>
+    <string name="matrix_second">Matriz B</string>
+    <string name="matrix_inverse">Matriz inversa</string>
+    <string name="matrix_product">Producto A × B</string>
+    <string name="matrix_impossible">La matriz no es invertible.</string>
+    <string name="matrix_incompatible">Las dimensiones no permiten multiplicar A × B.</string>
+    <string name="matrix_op_det">Det</string>
+    <string name="matrix_op_transpose">T</string>
+    <string name="matrix_op_inverse">Inv</string>
+    <string name="matrix_op_multiply">×</string>
+
+    <string name="json_xml_json">JSON</string>
+    <string name="json_xml_xml">XML</string>
+    <string name="json_xml_input">Contenido</string>
+    <string name="json_xml_json_hint">{"name":"Calculino","items":[1,2]}</string>
+    <string name="json_xml_xml_hint">&lt;root&gt;&lt;item&gt;1&lt;/item&gt;&lt;/root&gt;</string>
+    <string name="json_xml_format">Validar y formatear</string>
+    <string name="json_xml_output">Salida formateada</string>
+    <string name="json_xml_invalid">Contenido inválido</string>
+
+    <string name="complexity_best">Mejor caso</string>
+    <string name="complexity_average">Promedio</string>
+    <string name="complexity_worst">Peor caso</string>
+    <string name="complexity_space">Espacio</string>
+
+    <string name="statistics_dataset">Datos</string>
+    <string name="statistics_dataset_label">Dataset separado por comas</string>
+    <string name="statistics_dataset_hint">2, 4, 4, 5, 7, 9</string>
+    <string name="statistics_combinatorics">Combinaciones y permutaciones</string>
+    <string name="statistics_n">n</string>
+    <string name="statistics_r">r</string>
+    <string name="statistics_calculate">Calcular</string>
+    <string name="statistics_results">Estadísticos</string>
+    <string name="statistics_count">Cantidad</string>
+    <string name="statistics_mean">Media</string>
+    <string name="statistics_median">Mediana</string>
+    <string name="statistics_mode">Moda</string>
+    <string name="statistics_no_mode">Sin moda</string>
+    <string name="statistics_variance">Varianza poblacional</string>
+    <string name="statistics_standard_deviation">Desviación estándar</string>
+    <string name="statistics_range">Rango</string>
+    <string name="statistics_invalid_nr">n y r deben ser enteros entre 0 y 10000 con 0 ≤ r ≤ n.</string>
+    <string name="statistics_invalid_data">Datos inválidos</string>
+    <string name="statistics_invalid_dataset">Escribe números separados por comas.</string>
+    <string name="statistics_note">La varianza y la desviación estándar son poblacionales.</string>
+    <string name="statistics_combinations">C(%1$s, %2$s)</string>
+    <string name="statistics_permutations">P(%1$s, %2$s)</string>
+
+    <string name="complex_input">Números complejos</string>
+    <string name="complex_first">Primer número</string>
+    <string name="complex_second">Segundo número</string>
+    <string name="complex_hint">3+4i</string>
+    <string name="complex_invalid">Usa la forma a+bi, por ejemplo 3+4i.</string>
+    <string name="complex_calculate">Calcular</string>
+    <string name="complex_results">Resultados</string>
+    <string name="complex_sum">Suma</string>
+    <string name="complex_product">Producto</string>
+    <string name="complex_magnitude_first">Magnitud del primero</string>
+    <string name="complex_phase_first">Fase del primero</string>
+    <string name="complex_magnitude_second">Magnitud del segundo</string>
+    <string name="complex_phase_second">Fase del segundo</string>
+    <string name="complex_note">La fase se expresa en grados.</string>
+
+    <string name="gibbs_input">Datos termodinámicos</string>
+    <string name="gibbs_enthalpy">ΔH (kJ/mol)</string>
+    <string name="gibbs_entropy">ΔS (J/mol·K)</string>
+    <string name="gibbs_temperature">Temperatura (K)</string>
+    <string name="gibbs_invalid">Completa ΔH, ΔS y una temperatura mayor que cero.</string>
+    <string name="gibbs_calculate">Calcular ΔG</string>
+    <string name="gibbs_result">Energía libre de Gibbs</string>
+    <string name="gibbs_delta_g">ΔG</string>
+    <string name="gibbs_spontaneity">Espontaneidad</string>
+    <string name="gibbs_spontaneous">Espontánea</string>
+    <string name="gibbs_non_spontaneous">No espontánea</string>
+    <string name="gibbs_equilibrium">En equilibrio</string>
+    <string name="gibbs_note">ΔG = ΔH − TΔS, con ΔS convertida a kJ/mol·K.</string>
+    <string name="unit_kj_mol">kJ/mol</string>
+    <string name="unit_g_mol">g/mol</string>
+
+    <string name="empirical_input">Composición</string>
+    <string name="empirical_percentage">Porcentaje</string>
+    <string name="empirical_mass">Masa</string>
+    <string name="empirical_composition">Elementos y cantidad</string>
+    <string name="empirical_composition_hint">C:40, H:6.67, O:53.33</string>
+    <string name="empirical_molar_mass">Masa molar opcional</string>
+    <string name="empirical_calculate">Obtener fórmula</string>
+    <string name="empirical_result">Fórmula</string>
+    <string name="empirical_formula">Fórmula empírica</string>
+    <string name="empirical_molecular_formula">Fórmula molecular</string>
+    <string name="empirical_formula_mass">Masa de la fórmula empírica</string>
+    <string name="empirical_multiplier">Multiplicador molecular</string>
+    <string name="empirical_error">No se pudo calcular</string>
+    <string name="empirical_note">Usa el formato C:40, H:6.67, O:53.33. La masa molar es opcional.</string>
+
+    <string name="ph_input">Solución</string>
+    <string name="ph_concentration">Concentración (M)</string>
+    <string name="ph_ka">Ka</string>
+    <string name="ph_kb">Kb</string>
+    <string name="ph_invalid">Completa la concentración y, si es débil, su constante.</string>
+    <string name="ph_calculate">Calcular pH</string>
+    <string name="ph_result">Resultado</string>
+    <string name="ph_value">pH</string>
+    <string name="poh_value">pOH</string>
+    <string name="ph_hydrogen">[H⁺]</string>
+    <string name="ph_hydroxide">[OH⁻]</string>
+    <string name="ph_note">Se usa autoionización del agua a 25 °C.</string>
+    <string name="ph_type_strong_acid">Ácido fuerte</string>
+    <string name="ph_type_weak_acid">Ácido débil</string>
+    <string name="ph_type_strong_base">Base fuerte</string>
+    <string name="ph_type_weak_base">Base débil</string>
+    <string name="empirical_invalid_composition">Usa el formato C:40, H:6.67, O:53.33.</string>
+    <string name="empirical_error_empty">Agrega al menos un elemento.</string>
+    <string name="empirical_error_amount">Cada cantidad debe ser mayor que cero.</string>
+    <string name="empirical_error_unknown_element">Elemento desconocido: %1$s</string>
+    <string name="empirical_error_too_many">Usa como máximo 12 elementos.</string>
+    <string name="empirical_error_moles">No se pudieron calcular los moles.</string>
+    <string name="empirical_error_ratio">No se pudo ajustar una proporción entera.</string>
+    <string name="empirical_error_molar_mass">La masa molar debe ser mayor que cero.</string>
+    <string name="calculator_open_scanner">Escanear fórmula</string>
+    <string name="algebra_mode_local">Local</string>
+    <string name="algebra_mode_online">Online</string>
+    <string name="algebra_precision">Precisión</string>
+    <string name="algebra_solve_online">Resolver online</string>
+    <string name="algebra_online_empty">Escribe una ecuación para resolverla.</string>
+    <string name="algebra_online_invalid">La expresión no es válida.</string>
+    <string name="algebra_online_offline">No hay conexión a internet.</string>
+    <string name="algebra_online_timeout">La consulta tardó demasiado.</string>
+    <string name="algebra_online_server">Math.js devolvió un error.</string>
+    <string name="algebra_online_network">No se pudo conectar con Math.js.</string>
+    <string name="algebra_online_result">Resultado online</string>
+    <string name="algebra_online_cached">Resultado guardado en caché</string>
+    <string name="algebra_online_error">No se pudo resolver online.</string>
+    <string name="onboarding_continue">Continuar</string>
+    <string name="onboarding_back">Atrás</string>
+    <string name="onboarding_finish">Listo</string>
+    <string name="onboarding_yes">Sí</string>
+    <string name="onboarding_no">No</string>
+    <string name="onboarding_enabled">Activado</string>
+    <string name="onboarding_disabled">Desactivado</string>
+    <string name="onboarding_theme_title">Elige tu tema</string>
+    <string name="onboarding_theme_subtitle">Puedes seguir el sistema o elegir uno fijo.</string>
+    <string name="onboarding_theme_auto_description">Se adapta al modo del dispositivo.</string>
+    <string name="onboarding_theme_light_description">Colores claros y suaves.</string>
+    <string name="onboarding_theme_dark_description">Tonos oscuros cómodos.</string>
+    <string name="onboarding_local_ai_title">¿Usar IA local?</string>
+    <string name="onboarding_local_ai_subtitle">Resuelve y explica sin enviar datos a internet.</string>
+    <string name="onboarding_local_ai_yes_description">Descarga el modelo cuando lo necesites.</string>
+    <string name="onboarding_local_ai_no_description">Podrás activarla más tarde.</string>
+    <string name="onboarding_local_ai_note">La IA local requiere espacio libre y un dispositivo compatible.</string>
+    <string name="onboarding_model_title">Modelo local</string>
+    <string name="onboarding_model_subtitle">Usaremos este modelo para el asistente.</string>
+    <string name="onboarding_model_description">Equilibrio entre calidad y tamaño.</string>
+    <string name="onboarding_model_warning">Qwen 1.5B ocupa aproximadamente 1.1 GB. Descárgalo con Wi-Fi y espacio libre suficiente.</string>
+    <string name="onboarding_camera_title">Escanear fórmulas</string>
+    <string name="onboarding_camera_subtitle">Apunta la cámara a una fórmula para escribirla por ti.</string>
+    <string name="onboarding_camera_yes_description">Activa el botón de cámara en la calculadora.</string>
+    <string name="onboarding_camera_no_description">Puedes activarlo cuando quieras.</string>
+    <string name="onboarding_camera_note">El reconocimiento funciona en el dispositivo. Necesita permiso de cámara.</string>
+    <string name="onboarding_ready_title">Todo listo</string>
+    <string name="onboarding_ready_subtitle">Revisa tu configuración y empieza.</string>
+    <string name="onboarding_summary_theme">Tema</string>
+    <string name="onboarding_summary_local_ai">IA local</string>
+    <string name="onboarding_summary_model">Modelo</string>
+    <string name="onboarding_summary_camera">Cámara</string>
+    <string name="settings_local_ai">IA local</string>
+    <string name="settings_local_ai_description">Resuelve y explica con el modelo en el dispositivo.</string>
+    <string name="settings_camera_ocr">Escanear fórmulas</string>
+    <string name="settings_camera_ocr_description">Muestra el botón de cámara en la calculadora.</string>
+    <string name="scanner_title">Escanear fórmula</string>
+    <string name="scanner_subtitle">Centra la fórmula dentro del recuadro.</string>
+    <string name="scanner_hint">Buena luz y letras grandes mejoran el resultado.</string>
+    <string name="scanner_capture">Capturar</string>
+    <string name="scanner_retry">Reintentar</string>
+    <string name="scanner_recognizing">Reconociendo fórmula…</string>
+    <string name="scanner_error_empty">No se encontró texto en la imagen.</string>
+    <string name="scanner_error_failed">No se pudo reconocer la fórmula.</string>
+    <string name="scanner_camera_unavailable">La cámara no está disponible.</string>
+    <string name="scanner_capture_failed">No se pudo capturar la imagen.</string>
+    <string name="scanner_permission_title">Permiso de cámara</string>
+    <string name="scanner_permission_text">Calculino necesita la cámara para leer fórmulas.</string>
+    <string name="scanner_permission_grant">Permitir cámara</string>
+</resources>
